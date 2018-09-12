@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "noticia",
   "info": {
     "name": "noticia",
     "description": "Notícias"
@@ -17,6 +17,11 @@
     "description": {
       "default": "",
       "type": "text"
+    },
+    "imagem destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
     }
   }
 }
