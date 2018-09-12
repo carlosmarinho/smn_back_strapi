@@ -9,17 +9,21 @@
     "timestamps": true
   },
   "attributes": {
-    "nome": {
+    "wpid": {
       "default": "",
-      "type": "string"
+      "type": "integer"
     },
-    "slug": {
+    "nome": {
       "default": "",
       "type": "string"
     },
     "descricao": {
       "default": "",
-      "type": "text"
+      "type": "string"
+    },
+    "noticias": {
+      "collection": "noticia",
+      "via": "tags"
     }
   }
 }

@@ -27,11 +27,6 @@
       "collection": "bairro",
       "via": "noticia"
     },
-    "categorias": {
-      "collection": "categoria",
-      "via": "noticias",
-      "dominant": true
-    },
     "user": {
       "model": "user",
       "plugin": "users-permissions"
@@ -39,6 +34,11 @@
     "slug": {
       "default": "",
       "type": "string"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "noticias",
+      "dominant": true
     }
   }
 }
