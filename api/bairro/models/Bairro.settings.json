@@ -21,6 +21,10 @@
     "cidade": {
       "model": "cidade",
       "via": "bairros"
+    },
+    "noticia": {
+      "model": "noticia",
+      "via": "bairros"
     }
   }
 }

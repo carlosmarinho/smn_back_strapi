@@ -22,6 +22,19 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "bairros": {
+      "collection": "bairro",
+      "via": "noticia"
+    },
+    "categorias": {
+      "collection": "categoria",
+      "via": "noticias",
+      "dominant": true
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
     }
   }
 }

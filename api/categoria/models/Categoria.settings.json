@@ -20,6 +20,10 @@
     "descricao": {
       "default": "",
       "type": "text"
+    },
+    "noticias": {
+      "collection": "noticia",
+      "via": "categorias"
     }
   }
 }
