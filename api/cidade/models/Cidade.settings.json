@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "cidade",
   "info": {
     "name": "cidade",
     "description": ""
@@ -9,10 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "imagem destacada": {
-      "default": "",
-      "type": "string"
-    },
     "nome": {
       "default": "",
       "type": "string"
@@ -25,6 +21,11 @@
     "bairros": {
       "collection": "bairro",
       "via": "cidade"
+    },
+    "imagem destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
     }
   }
 }
