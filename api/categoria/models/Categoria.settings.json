@@ -9,10 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "wpid": {
-      "default": "",
-      "type": "string"
-    },
     "nome": {
       "default": "",
       "type": "string"
@@ -37,6 +33,10 @@
     "noticias": {
       "collection": "noticia",
       "via": "categorias"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
     }
   }
 }
