@@ -27,7 +27,16 @@
     },
     "slug": {
       "default": "",
+      "type": "string",
+      "unique": true
+    },
+    "slug_wp": {
+      "default": "",
       "type": "string"
+    },
+    "count": {
+      "default": "",
+      "type": "integer"
     }
   }
 }

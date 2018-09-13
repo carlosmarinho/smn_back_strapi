@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "evento",
   "info": {
     "name": "evento",
     "description": ""
@@ -12,6 +12,14 @@
     "nome": {
       "default": "",
       "type": "string"
+    },
+    "inicio": {
+      "default": "",
+      "type": "date"
+    },
+    "fim": {
+      "default": "",
+      "type": "date"
     }
   }
 }

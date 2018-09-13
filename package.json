@@ -20,8 +20,10 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
+    "react-copy-to-clipboard": "^5.0.1",
     "strapi": "^3.0.0-alpha.14",
-    "strapi-hook-mongoose": "3.0.0-alpha.14"
+    "strapi-hook-mongoose": "3.0.0-alpha.14",
+    "strapi-plugin-upload": "^3.0.0-alpha.14"
   },
   "author": {
     "name": "carlos",

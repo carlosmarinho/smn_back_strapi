@@ -29,6 +29,14 @@
     "descricao": {
       "default": "",
       "type": "text"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
     }
   }
 }

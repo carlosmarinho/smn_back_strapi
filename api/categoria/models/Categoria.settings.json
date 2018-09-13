@@ -23,7 +23,8 @@
     },
     "slug": {
       "default": "",
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "slug_wp": {
       "default": "",

@@ -42,8 +42,8 @@
     },
     "categorias": {
       "collection": "categoria",
-      "via": "noticias",
-      "dominant": true
+      "dominant": true,
+      "via": "noticias"
     }
   }
 }
