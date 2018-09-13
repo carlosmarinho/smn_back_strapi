@@ -18,7 +18,7 @@
       "default": "",
       "type": "text"
     },
-    "imagem destacada": {
+    "imagem_destacada": {
       "model": "file",
       "via": "related",
       "plugin": "upload"

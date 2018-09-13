@@ -22,7 +22,7 @@
       "collection": "bairro",
       "via": "cidade"
     },
-    "imagem destacada": {
+    "imagem_destacada": {
       "model": "file",
       "via": "related",
       "plugin": "upload"

@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "imagem destacada": {
+    "imagem_destacada": {
       "model": "file",
       "via": "related",
       "plugin": "upload"
