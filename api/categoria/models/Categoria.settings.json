@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "categoria",
   "info": {
     "name": "categoria",
     "description": ""
@@ -20,6 +20,22 @@
     "descricao": {
       "default": "",
       "type": "string"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "slug_wp": {
+      "default": "",
+      "type": "string"
+    },
+    "count": {
+      "default": "",
+      "type": "integer"
+    },
+    "noticias": {
+      "collection": "noticia",
+      "via": "categorias"
     }
   }
 }

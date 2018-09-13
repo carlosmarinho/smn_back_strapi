@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "tag",
   "info": {
     "name": "tag",
     "description": ""
@@ -24,6 +24,10 @@
     "noticias": {
       "collection": "noticia",
       "via": "tags"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
     }
   }
 }

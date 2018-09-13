@@ -37,6 +37,11 @@
     },
     "tags": {
       "collection": "tag",
+      "dominant": true,
+      "via": "noticias"
+    },
+    "categorias": {
+      "collection": "categoria",
       "via": "noticias",
       "dominant": true
     }
