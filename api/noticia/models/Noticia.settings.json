@@ -9,12 +9,12 @@
     "timestamps": true
   },
   "attributes": {
-    "title": {
+    "titulo": {
       "default": "",
       "type": "string",
       "required": true
     },
-    "description": {
+    "descricao": {
       "default": "",
       "type": "text"
     },
@@ -44,6 +44,14 @@
       "collection": "categoria",
       "via": "noticias",
       "dominant": true
+    },
+    "wp_user_id": {
+      "default": "",
+      "type": "integer"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
     }
   }
 }
