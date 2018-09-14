@@ -37,6 +37,21 @@
     "wpid": {
       "default": "",
       "type": "integer"
+    },
+    "tipo": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "notícia",
+        "evento",
+        "guia-comercial",
+        "serviço"
+      ]
+    },
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
     }
   }
 }
