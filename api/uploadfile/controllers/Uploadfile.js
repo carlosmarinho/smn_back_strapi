@@ -1,4 +1,6 @@
 'use strict';
+const {ObjectID} = require('mongodb');
+
 
 /**
  * Uploadfile.js controller
@@ -53,6 +55,8 @@ module.exports = {
    */
 
   create: async (ctx) => {
+    ctx.request.body["related"][0]["ref"] =  new ObjectID(ctx.request.body["related"]["ref"]);
+    console.log("\n\n\n: ", ctx.request.body);
     return strapi.services.uploadfile.add(ctx.request.body);
   },
 
