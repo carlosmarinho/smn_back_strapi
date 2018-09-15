@@ -1,5 +1,6 @@
+const {ObjectId} = require('mongodb');
+const my_category = require('../../categoria/controllers/Categoria');
 'use strict';
-const {ObjectID} = require('mongodb');
 
 
 /**
@@ -54,9 +55,8 @@ module.exports = {
    * @return {Object}
    */
 
-  create: async (ctx) => {
-    ctx.request.body["related"][0]["ref"] =  new ObjectID(ctx.request.body["related"]["ref"]);
-    console.log("\n\n\n: ", ctx.request.body);
+  create: async (ctx) => {  
+    ctx.request.body["related"][0]["ref"] = ObjectId( ctx.request.body["related"][0]["ref"] );
     return strapi.services.uploadfile.add(ctx.request.body);
   },
 
