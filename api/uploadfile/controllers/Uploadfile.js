@@ -56,6 +56,7 @@ module.exports = {
    */
 
   create: async (ctx) => {  
+    /*altered by carlos*/
     ctx.request.body["related"][0]["ref"] = ObjectId( ctx.request.body["related"][0]["ref"] );
     return strapi.services.uploadfile.add(ctx.request.body);
   },
