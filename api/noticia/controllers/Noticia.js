@@ -63,6 +63,7 @@ module.exports = {
    */
 
   update: async (ctx, next) => {
+      console.log("\n\nvai atualizar a noticia:", ctx);
     return strapi.services.noticia.edit(ctx.params, ctx.request.body) ;
   },
 

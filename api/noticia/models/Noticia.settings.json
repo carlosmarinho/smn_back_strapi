@@ -42,8 +42,8 @@
     },
     "categorias": {
       "collection": "categoria",
-      "dominant": true,
-      "via": "noticias"
+      "via": "noticias",
+      "dominant": true
     },
     "wp_user_id": {
       "default": "",
@@ -52,6 +52,14 @@
     "wpid": {
       "default": "",
       "type": "integer"
+    },
+    "imported_category": {
+      "default": false,
+      "type": "boolean"
+    },
+    "imported_tag": {
+      "default": false,
+      "type": "boolean"
     }
   }
 }

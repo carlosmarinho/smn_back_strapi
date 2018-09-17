@@ -37,6 +37,10 @@
     "count": {
       "default": "",
       "type": "integer"
+    },
+    "eventos": {
+      "collection": "evento",
+      "via": "tags"
     }
   }
 }

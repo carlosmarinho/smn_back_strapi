@@ -52,6 +52,10 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "eventos": {
+      "collection": "evento",
+      "via": "categorias"
     }
   }
 }

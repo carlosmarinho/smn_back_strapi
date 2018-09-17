@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "nome": {
+    "titulo": {
       "default": "",
       "type": "string"
     },
@@ -20,6 +20,89 @@
     "fim": {
       "default": "",
       "type": "date"
+    },
+    "descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "wp_user_id": {
+      "default": "",
+      "type": "integer"
+    },
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "bairro": {
+      "model": "bairro",
+      "dominant": true
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "categorias": {
+      "collection": "categoria",
+      "via": "eventos",
+      "dominant": true
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "eventos",
+      "dominant": true
+    },
+    "preco": {
+      "default": "",
+      "type": "decimal"
+    },
+    "couvert": {
+      "default": "",
+      "type": "decimal"
+    },
+    "recorrencia": {
+      "default": "sem recorrencia",
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "sem recorrência",
+        "diária",
+        "semanal",
+        "mensal",
+        "anual"
+      ]
+    },
+    "classificacao_indicativa": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "sem classificação indicativa",
+        "livre",
+        "10 anos",
+        "12 anos",
+        "14 anos",
+        "16 anos",
+        "18 anos"
+      ]
+    },
+    "cidade": {
+      "model": "cidade"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
+    },
+    "imported_category": {
+      "default": false,
+      "type": "boolean"
+    },
+    "imported_tag": {
+      "default": false,
+      "type": "boolean"
     }
   }
 }

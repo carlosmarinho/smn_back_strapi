@@ -26,6 +26,10 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "undefined": {
+      "collection": "evento",
+      "via": "cidade"
     }
   }
 }
