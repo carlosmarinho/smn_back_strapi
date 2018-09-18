@@ -44,6 +44,10 @@
     "related": {
       "default": "",
       "type": "json"
+    },
+    "old_url": {
+      "default": "",
+      "type": "string"
     }
   }
 }

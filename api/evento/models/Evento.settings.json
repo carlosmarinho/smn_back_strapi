@@ -38,6 +38,10 @@
       "via": "related",
       "plugin": "upload"
     },
+    "old_imagem_destacada": {
+      "default": "",
+      "type": "string"
+    },
     "bairro": {
       "model": "bairro",
       "dominant": true
@@ -103,6 +107,14 @@
     "imported_tag": {
       "default": false,
       "type": "boolean"
+    },
+    "hora_inicio": {
+      "default": "",
+      "type": "string"
+    },
+    "hora_fim": {
+      "default": "",
+      "type": "string"
     }
   }
 }
