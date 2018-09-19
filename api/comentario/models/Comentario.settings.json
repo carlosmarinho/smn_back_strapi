@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "comentario",
+  "collectionName": "",
   "info": {
     "name": "comentario",
     "description": ""
@@ -12,42 +12,6 @@
     "titulo": {
       "default": "",
       "type": "string"
-    },
-    "descricao": {
-      "default": "",
-      "type": "text"
-    },
-    "wpid": {
-      "default": "",
-      "type": "integer"
-    },
-    "author_name": {
-      "default": "",
-      "type": "string"
-    },
-    "author_email": {
-      "default": "",
-      "type": "email"
-    },
-    "author_ip": {
-      "default": "",
-      "type": "string"
-    },
-    "user": {
-      "model": "user",
-      "plugin": "users-permissions"
-    },
-    "aprovado": {
-      "default": false,
-      "type": "boolean"
-    },
-    "wp_post_id": {
-      "default": "",
-      "type": "integer"
-    },
-    "wp_user_id": {
-      "default": "",
-      "type": "integer"
     }
   }
 }

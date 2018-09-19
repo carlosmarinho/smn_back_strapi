@@ -29,7 +29,6 @@ module.exports = {
    */
 
   findOne: async (ctx) => {
-    console.log("\n\nparams: ", ctx.params);
     if (!ctx.params._id.match(/^[0-9a-fA-F]{24}$/)) {
       return ctx.notFound();
     }

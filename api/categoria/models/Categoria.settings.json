@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "categoria",
+  "collectionName": "",
   "info": {
     "name": "categoria",
     "description": ""
@@ -9,53 +9,53 @@
     "timestamps": true
   },
   "attributes": {
-    "nome": {
-      "default": "",
-      "type": "string"
-    },
-    "descricao": {
-      "default": "",
-      "type": "string"
-    },
-    "slug": {
-      "default": "",
-      "type": "string",
-      "unique": true
-    },
-    "slug_wp": {
-      "default": "",
-      "type": "string"
-    },
-    "count": {
-      "default": "",
-      "type": "integer"
-    },
-    "noticias": {
-      "collection": "noticia",
-      "via": "categorias"
-    },
-    "wpid": {
-      "default": "",
-      "type": "integer"
-    },
-    "tipo": {
-      "default": "",
-      "type": "enumeration",
-      "enum": [
-        "notícia",
-        "evento",
-        "guia-comercial",
-        "serviço"
-      ]
-    },
-    "imagem_destacada": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload"
-    },
-    "eventos": {
-      "collection": "evento",
-      "via": "categorias"
-    }
+      "nome": {
+        "default": "",
+        "type": "string"
+      },
+      "descricao": {
+        "default": "",
+        "type": "string"
+      },
+      "slug": {
+        "default": "",
+        "type": "string",
+        "unique": true
+      },
+      "slug_wp": {
+        "default": "",
+        "type": "string"
+      },
+      "count": {
+        "default": "",
+        "type": "integer"
+      },
+      "noticias": {
+        "collection": "noticia",
+        "via": "categorias"
+      },
+      "wpid": {
+        "default": "",
+        "type": "integer"
+      },
+      "tipo": {
+        "default": "",
+        "type": "enumeration",
+        "enum": [
+          "notícia",
+          "evento",
+          "guia-comercial",
+          "serviço"
+        ]
+      },
+      "imagem_destacada": {
+        "model": "file",
+        "via": "related",
+        "plugin": "upload"
+      },
+      "eventos": {
+        "collection": "evento",
+        "via": "categorias"
+      }
   }
 }

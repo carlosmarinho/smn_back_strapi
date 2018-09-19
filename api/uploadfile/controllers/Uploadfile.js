@@ -1,7 +1,4 @@
-const {ObjectId} = require('mongodb');
-const my_category = require('../../categoria/controllers/Categoria');
 'use strict';
-
 
 /**
  * Uploadfile.js controller
@@ -55,7 +52,7 @@ module.exports = {
    * @return {Object}
    */
 
-  create: async (ctx) => {  
+  create: async (ctx) => {
     /*altered by carlos*/
     ctx.request.body["related"][0]["_id"] = ObjectId( ctx.request.body["related"][0]["_id"] );
     ctx.request.body["related"][0]["ref"] = ObjectId( ctx.request.body["related"][0]["ref"] );

@@ -1,15 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "state",
+  "collectionName": "",
   "info": {
     "name": "estado",
-    "description": "Estado do Brasil"
+    "description": ""
   },
   "options": {
     "timestamps": true
   },
   "attributes": {
-    "Nome": {
+    "nome": {
       "default": "",
       "type": "string"
     },
