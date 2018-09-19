@@ -1,0 +1,131 @@
+{
+  "connection": "default",
+  "collectionName": "guia",
+  "info": {
+    "name": "guia",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "default": "",
+      "type": "string"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "wp_user_id": {
+      "default": "",
+      "type": "integer"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
+    },
+    "categorias": {
+      "collection": "categoria",
+      "via": "guias",
+      "dominant": true
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "guias",
+      "dominant": true
+    },
+    "bairro": {
+      "model": "bairro"
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "imported_category": {
+      "default": false,
+      "type": "boolean"
+    },
+    "imported_tag": {
+      "default": false,
+      "type": "boolean"
+    },
+    "endereco": {
+      "default": "",
+      "type": "string"
+    },
+    "complemento": {
+      "default": "",
+      "type": "string"
+    },
+    "cep": {
+      "default": "",
+      "type": "string"
+    },
+    "telefone": {
+      "default": "",
+      "type": "string"
+    },
+    "celular": {
+      "default": "",
+      "type": "string"
+    },
+    "email": {
+      "default": "",
+      "type": "email"
+    },
+    "latitude": {
+      "default": "",
+      "type": "string"
+    },
+    "longitude": {
+      "default": "",
+      "type": "string"
+    },
+    "website": {
+      "default": "",
+      "type": "string"
+    },
+    "facebook": {
+      "default": "",
+      "type": "string"
+    },
+    "googleplus": {
+      "default": "",
+      "type": "string"
+    },
+    "twitter": {
+      "default": "",
+      "type": "string"
+    },
+    "nao_existe_mais": {
+      "default": false,
+      "type": "boolean"
+    },
+    "cidade": {
+      "model": "cidade"
+    },
+    "old_imagem_destacada": {
+      "default": "",
+      "type": "string"
+    },
+    "tipo": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "guia comercial",
+        " guia de serviços"
+      ]
+    }
+  }
+}

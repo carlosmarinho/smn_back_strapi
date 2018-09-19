@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "upload_file",
   "info": {
     "name": "uploadfile",
     "description": ""
@@ -9,45 +9,45 @@
     "timestamps": true
   },
   "attributes": {
-      "name": {
-        "default": "",
-        "type": "string"
-      },
-      "sha256": {
-        "default": "",
-        "type": "string"
-      },
-      "hash": {
-        "default": "",
-        "type": "string"
-      },
-      "ext": {
-        "default": "",
-        "type": "string"
-      },
-      "mime": {
-        "default": "",
-        "type": "string"
-      },
-      "size": {
-        "default": "",
-        "type": "integer"
-      },
-      "url": {
-        "default": "",
-        "type": "string"
-      },
-      "provider": {
-        "default": "",
-        "type": "string"
-      },
-      "related": {
-        "default": "",
-        "type": "json"
-      },
-      "old_url": {
-        "default": "",
-        "type": "string"
-      }
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "sha256": {
+      "default": "",
+      "type": "string"
+    },
+    "hash": {
+      "default": "",
+      "type": "string"
+    },
+    "ext": {
+      "default": "",
+      "type": "string"
+    },
+    "mime": {
+      "default": "",
+      "type": "string"
+    },
+    "size": {
+      "default": "",
+      "type": "integer"
+    },
+    "url": {
+      "default": "",
+      "type": "string"
+    },
+    "provider": {
+      "default": "",
+      "type": "string"
+    },
+    "related": {
+      "default": "",
+      "type": "json"
+    },
+    "old_url": {
+      "default": "",
+      "type": "string"
+    }
   }
 }

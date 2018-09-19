@@ -14,33 +14,37 @@
       "type": "string"
     },
     "descricao": {
-        "default": "",
-        "type": "string"
-      },
-      "noticias": {
-        "collection": "noticia",
-        "via": "tags"
-      },
-      "slug": {
-        "default": "",
-        "type": "string",
-        "unique": true
-      },
-      "slug_wp": {
-        "default": "",
-        "type": "string"
-      },
-      "count": {
-        "default": "",
-        "type": "integer"
-      },
-      "eventos": {
-        "collection": "evento",
-        "via": "tags"
-      },
-      "wpid": {
-        "default": "",
-        "type": "integer"
-      }
+      "default": "",
+      "type": "string"
+    },
+    "noticias": {
+      "collection": "noticia",
+      "via": "tags"
+    },
+    "slug": {
+      "default": "",
+      "type": "string",
+      "unique": true
+    },
+    "slug_wp": {
+      "default": "",
+      "type": "string"
+    },
+    "count": {
+      "default": "",
+      "type": "integer"
+    },
+    "eventos": {
+      "collection": "evento",
+      "via": "tags"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
+    },
+    "guias": {
+      "collection": "guia",
+      "via": "tags"
+    }
   }
 }

@@ -9,34 +9,34 @@
     "timestamps": true
   },
   "attributes": {
-      "nome": {
-        "default": "",
-        "type": "string"
-      },
-      "imagem_destacada": {
-        "model": "file",
-        "via": "related",
-        "plugin": "upload"
-      },
-      "cidade": {
-        "model": "cidade",
-        "via": "bairros"
-      },
-      "noticia": {
-        "model": "noticia",
-        "via": "bairros"
-      },
-      "descricao": {
-        "default": "",
-        "type": "text"
-      },
-      "slug": {
-        "default": "",
-        "type": "string"
-      },
-      "wpid": {
-        "default": "",
-        "type": "integer"
-      }
+    "nome": {
+      "default": "",
+      "type": "string"
+    },
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "cidade": {
+      "model": "cidade",
+      "via": "bairros"
+    },
+    "noticia": {
+      "model": "noticia",
+      "via": "bairros"
+    },
+    "descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
+    }
   }
 }
