@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "cidade",
+  "info": {
+    "name": "cidade",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "default": "",
+      "type": "string"
+    },
+    "estado": {
+      "model": "estado",
+      "via": "cidades",
+      "dominant": true
+    },
+    "bairros": {
+      "collection": "bairro",
+      "via": "cidade"
+    },
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "undefined": {
+      "collection": "evento",
+      "via": "cidade"
+    }
+  }
+}

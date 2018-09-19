@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "bairro",
+  "info": {
+    "name": "bairro",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "nome": {
+      "default": "",
+      "type": "string"
+    },
+    "cidade": {
+      "model": "cidade",
+      "via": "bairros"
+    },
+    "noticia": {
+      "model": "noticia",
+      "via": "bairros"
+    },
+    "descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

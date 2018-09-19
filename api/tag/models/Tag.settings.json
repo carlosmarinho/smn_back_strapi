@@ -1,0 +1,46 @@
+{
+  "connection": "default",
+  "collectionName": "tag",
+  "info": {
+    "name": "tag",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "wpid": {
+      "default": "",
+      "type": "integer"
+    },
+    "nome": {
+      "default": "",
+      "type": "string"
+    },
+    "descricao": {
+      "default": "",
+      "type": "string"
+    },
+    "noticias": {
+      "collection": "noticia",
+      "via": "tags"
+    },
+    "slug": {
+      "default": "",
+      "type": "string",
+      "unique": true
+    },
+    "slug_wp": {
+      "default": "",
+      "type": "string"
+    },
+    "count": {
+      "default": "",
+      "type": "integer"
+    },
+    "eventos": {
+      "collection": "evento",
+      "via": "tags"
+    }
+  }
+}

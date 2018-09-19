@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/uploadfile",
+      "handler": "Uploadfile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/uploadfile/count",
+      "handler": "Uploadfile.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/uploadfile/:_id",
+      "handler": "Uploadfile.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/uploadfile",
+      "handler": "Uploadfile.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/uploadfile/:_id",
+      "handler": "Uploadfile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/uploadfile/:_id",
+      "handler": "Uploadfile.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

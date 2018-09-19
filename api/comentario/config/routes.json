@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/comentario",
+      "handler": "Comentario.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/comentario/count",
+      "handler": "Comentario.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/comentario/:_id",
+      "handler": "Comentario.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/comentario",
+      "handler": "Comentario.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/comentario/:_id",
+      "handler": "Comentario.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/comentario/:_id",
+      "handler": "Comentario.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
