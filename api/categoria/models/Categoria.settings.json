@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "categoria",
   "info": {
     "name": "categoria",
     "description": ""
@@ -44,14 +44,14 @@
       "enum": [
         "notícia",
         "evento",
-        "guia-comercial",
-        "serviço"
+        "guia"
       ]
     },
     "imagem_destacada": {
       "model": "file",
       "via": "related",
-      "plugin": "upload"
+      "plugin": "upload",
+      "required": false
     },
     "eventos": {
       "collection": "evento",
@@ -60,6 +60,10 @@
     "guias": {
       "collection": "guia",
       "via": "categorias"
+    },
+    "wp_parent_id": {
+      "default": "",
+      "type": "integer"
     }
   }
 }

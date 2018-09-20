@@ -26,7 +26,8 @@
     },
     "bairros": {
       "collection": "bairro",
-      "via": "noticia"
+      "via": "noticia",
+      "dominant": true
     },
     "user": {
       "model": "user",
@@ -65,6 +66,10 @@
     "old_imagem_destacada": {
       "default": "",
       "type": "string"
+    },
+    "imported_bairro": {
+      "default": false,
+      "type": "boolean"
     }
   }
 }

@@ -23,7 +23,7 @@
       "via": "bairros"
     },
     "noticia": {
-      "model": "noticia",
+      "collection": "noticia",
       "via": "bairros"
     },
     "descricao": {
@@ -37,6 +37,10 @@
     "wpid": {
       "default": "",
       "type": "integer"
+    },
+    "eventos": {
+      "collection": "evento",
+      "via": "bairros"
     }
   }
 }

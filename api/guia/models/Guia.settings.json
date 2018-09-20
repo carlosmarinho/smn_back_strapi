@@ -124,8 +124,12 @@
       "type": "enumeration",
       "enum": [
         "guia comercial",
-        " guia de serviços"
+        "guia de serviços"
       ]
+    },
+    "imported_bairro": {
+      "default": false,
+      "type": "boolean"
     }
   }
 }

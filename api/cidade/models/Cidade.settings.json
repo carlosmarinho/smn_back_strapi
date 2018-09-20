@@ -28,7 +28,7 @@
       "via": "cidade"
     },
     "undefined": {
-      "collection": "guia",
+      "collection": "evento",
       "via": "cidade"
     }
   }
