@@ -26,8 +26,8 @@
     },
     "bairros": {
       "collection": "bairro",
-      "via": "noticia",
-      "dominant": true
+      "dominant": true,
+      "via": "noticia"
     },
     "user": {
       "model": "user",

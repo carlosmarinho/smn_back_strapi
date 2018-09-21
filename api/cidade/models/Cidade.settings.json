@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "cidade",
   "info": {
     "name": "cidade",
     "description": ""
@@ -16,7 +16,8 @@
     "imagem_destacada": {
       "model": "file",
       "via": "related",
-      "plugin": "upload"
+      "plugin": "upload",
+      "required": false
     },
     "estado": {
       "model": "estado",
@@ -27,9 +28,10 @@
       "collection": "bairro",
       "via": "cidade"
     },
-    "undefined": {
-      "collection": "evento",
-      "via": "cidade"
+    "guias": {
+      "collection": "guia",
+      "via": "cidades",
+      "dominant": true
     }
   }
 }

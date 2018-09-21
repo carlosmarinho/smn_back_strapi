@@ -1,0 +1,52 @@
+{
+  "connection": "default",
+  "collectionName": "pagina",
+  "info": {
+    "name": "pagina",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "default": "",
+      "type": "string"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "bairro": {
+      "model": "bairro",
+      "via": "paginas"
+    },
+    "cidade": {
+      "model": "cidade"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "paginas",
+      "dominant": true
+    },
+    "modulos": {
+      "collection": "modulo",
+      "via": "paginas",
+      "dominant": true
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
+    },
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

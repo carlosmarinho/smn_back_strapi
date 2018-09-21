@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "modulo",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "default": "",
+      "type": "string"
+    },
+    "descricao": {
+      "default": "",
+      "type": "string"
+    },
+    "paginas": {
+      "collection": "pagina",
+      "via": "modulos"
+    }
+  }
+}

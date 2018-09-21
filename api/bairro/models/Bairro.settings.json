@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "bairro",
   "info": {
     "name": "bairro",
     "description": ""
@@ -16,7 +16,8 @@
     "imagem_destacada": {
       "model": "file",
       "via": "related",
-      "plugin": "upload"
+      "plugin": "upload",
+      "required": false
     },
     "cidade": {
       "model": "cidade",
@@ -41,6 +42,19 @@
     "eventos": {
       "collection": "evento",
       "via": "bairros"
+    },
+    "guias": {
+      "collection": "guia",
+      "via": "bairros"
+    },
+    "menus": {
+      "collection": "menu",
+      "via": "bairros",
+      "dominant": true
+    },
+    "paginas": {
+      "collection": "pagina",
+      "via": "bairro"
     }
   }
 }

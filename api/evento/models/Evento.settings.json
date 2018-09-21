@@ -45,8 +45,8 @@
     },
     "bairros": {
       "collection": "bairro",
-      "via": "eventos",
-      "dominant": true
+      "dominant": true,
+      "via": "eventos"
     },
     "user": {
       "model": "user",
@@ -94,9 +94,6 @@
         "16 anos",
         "18 anos"
       ]
-    },
-    "cidade": {
-      "model": "cidade"
     },
     "wpid": {
       "default": "",

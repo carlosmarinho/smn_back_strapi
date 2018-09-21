@@ -45,8 +45,10 @@
       "via": "guias",
       "dominant": true
     },
-    "bairro": {
-      "model": "bairro"
+    "bairros": {
+      "collection": "bairro",
+      "dominant": true,
+      "via": "guias"
     },
     "user": {
       "model": "user",
@@ -112,9 +114,6 @@
       "default": false,
       "type": "boolean"
     },
-    "cidade": {
-      "model": "cidade"
-    },
     "old_imagem_destacada": {
       "default": "",
       "type": "string"
@@ -130,6 +129,10 @@
     "imported_bairro": {
       "default": false,
       "type": "boolean"
+    },
+    "cidades": {
+      "collection": "cidade",
+      "via": "guias"
     }
   }
 }

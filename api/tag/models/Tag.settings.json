@@ -45,6 +45,10 @@
     "guias": {
       "collection": "guia",
       "via": "tags"
+    },
+    "paginas": {
+      "collection": "pagina",
+      "via": "tags"
     }
   }
 }
