@@ -133,6 +133,10 @@
     "cidades": {
       "collection": "cidade",
       "via": "guias"
+    },
+    "cidade_destaque": {
+      "model": "cidade",
+      "via": "guias_destacados"
     }
   }
 }

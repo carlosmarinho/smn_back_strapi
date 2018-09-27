@@ -32,6 +32,14 @@
       "collection": "guia",
       "via": "cidades",
       "dominant": true
+    },
+    "guias_destacados": {
+      "collection": "guia",
+      "via": "cidade_destaque"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
     }
   }
 }

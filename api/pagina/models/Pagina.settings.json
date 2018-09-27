@@ -25,9 +25,6 @@
       "model": "bairro",
       "via": "paginas"
     },
-    "cidade": {
-      "model": "cidade"
-    },
     "tags": {
       "collection": "tag",
       "via": "paginas",
