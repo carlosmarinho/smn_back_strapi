@@ -45,8 +45,8 @@
     },
     "bairros": {
       "collection": "bairro",
-      "dominant": true,
-      "via": "eventos"
+      "via": "eventos",
+      "dominant": true
     },
     "user": {
       "model": "user",
