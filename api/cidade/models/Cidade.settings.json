@@ -30,8 +30,7 @@
     },
     "guias": {
       "collection": "guia",
-      "via": "cidades",
-      "dominant": true
+      "via": "cidade"
     },
     "guias_destacados": {
       "collection": "guia",

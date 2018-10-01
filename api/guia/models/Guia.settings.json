@@ -47,8 +47,8 @@
     },
     "bairros": {
       "collection": "bairro",
-      "dominant": true,
-      "via": "guias"
+      "via": "guias",
+      "dominant": true
     },
     "user": {
       "model": "user",
@@ -130,9 +130,10 @@
       "default": false,
       "type": "boolean"
     },
-    "cidades": {
+    "cidade": {
       "collection": "cidade",
-      "via": "guias"
+      "via": "guias",
+      "dominant": true
     },
     "cidade_destaque": {
       "model": "cidade",
