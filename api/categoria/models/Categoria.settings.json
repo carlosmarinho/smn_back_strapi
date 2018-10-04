@@ -64,6 +64,10 @@
     "wp_parent_id": {
       "default": "",
       "type": "integer"
+    },
+    "parent_id": {
+      "default": "",
+      "type": "string"
     }
   }
 }
