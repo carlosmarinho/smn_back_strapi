@@ -37,8 +37,8 @@
     },
     "categorias": {
       "collection": "categoria",
-      "dominant": true,
-      "via": "guias"
+      "via": "guias",
+      "dominant": true
     },
     "tags": {
       "collection": "tag",
@@ -138,6 +138,20 @@
     "cidade_destaque": {
       "model": "cidade",
       "via": "guias_destacados"
+    },
+    "descricao_servicos": {
+      "default": "",
+      "type": "text"
+    },
+    "servicos": {
+      "collection": "servico",
+      "via": "guia"
+    },
+    "galeria_imagens": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }
