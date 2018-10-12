@@ -1,0 +1,37 @@
+{
+  "connection": "default",
+  "collectionName": "servicos",
+  "info": {
+    "name": "servico",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "default": "",
+      "type": "string"
+    },
+    "descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "galeria_imagens": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "guia": {
+      "model": "guia",
+      "via": "servicos"
+    }
+  }
+}

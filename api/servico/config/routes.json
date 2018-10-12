@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/servico",
+      "handler": "Servico.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/servico/count",
+      "handler": "Servico.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/servico/:_id",
+      "handler": "Servico.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/servico",
+      "handler": "Servico.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/servico/:_id",
+      "handler": "Servico.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/servico/:_id",
+      "handler": "Servico.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
