@@ -45,8 +45,8 @@
     },
     "bairros": {
       "collection": "bairro",
-      "via": "eventos",
-      "dominant": true
+      "dominant": true,
+      "via": "eventos"
     },
     "user": {
       "model": "user",
@@ -54,8 +54,8 @@
     },
     "categorias": {
       "collection": "categoria",
-      "dominant": true,
-      "via": "eventos"
+      "via": "eventos",
+      "dominant": true
     },
     "tags": {
       "collection": "tag",
@@ -118,6 +118,9 @@
     "imported_bairro": {
       "default": false,
       "type": "boolean"
+    },
+    "cidade": {
+      "model": "cidade"
     }
   }
 }

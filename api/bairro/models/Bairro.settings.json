@@ -55,6 +55,14 @@
     "paginas": {
       "collection": "pagina",
       "via": "bairro"
+    },
+    "site": {
+      "default": "",
+      "type": "string"
+    },
+    "preposicao": {
+      "default": "",
+      "type": "string"
     }
   }
 }
