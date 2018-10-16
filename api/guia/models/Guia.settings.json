@@ -152,6 +152,10 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "avaliacao": {
+      "default": "",
+      "type": "decimal"
     }
   }
 }
