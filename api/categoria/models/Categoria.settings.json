@@ -44,7 +44,8 @@
       "enum": [
         "notícia",
         "evento",
-        "guia"
+        "guia comercial",
+        "guia serviço"
       ]
     },
     "imagem_destacada": {

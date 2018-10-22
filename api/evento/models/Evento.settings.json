@@ -54,8 +54,8 @@
     },
     "categorias": {
       "collection": "categoria",
-      "via": "eventos",
-      "dominant": true
+      "dominant": true,
+      "via": "eventos"
     },
     "tags": {
       "collection": "tag",

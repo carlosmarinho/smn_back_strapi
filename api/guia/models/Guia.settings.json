@@ -37,8 +37,8 @@
     },
     "categorias": {
       "collection": "categoria",
-      "via": "guias",
-      "dominant": true
+      "dominant": true,
+      "via": "guias"
     },
     "tags": {
       "collection": "tag",
