@@ -26,8 +26,8 @@
     },
     "bairros": {
       "collection": "bairro",
-      "dominant": true,
-      "via": "noticia"
+      "via": "noticia",
+      "dominant": true
     },
     "user": {
       "model": "user",
@@ -44,8 +44,8 @@
     },
     "categorias": {
       "collection": "categoria",
-      "dominant": true,
-      "via": "noticias"
+      "via": "noticias",
+      "dominant": true
     },
     "wp_user_id": {
       "default": "",
@@ -68,6 +68,10 @@
       "type": "string"
     },
     "imported_bairro": {
+      "default": false,
+      "type": "boolean"
+    },
+    "imported_imagem_destacada": {
       "default": false,
       "type": "boolean"
     }

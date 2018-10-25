@@ -34,10 +34,10 @@ module.exports = {
     let populate;
     
     if(populateAssociation){
-     populate = Categoria.associations
-      .filter(ast => ast.autoPopulate !== false)
-      .map(ast => ast.alias)
-      .join(' ');
+        populate = Categoria.associations
+        .filter(ast => ast.autoPopulate !== false)
+        .map(ast => ast.alias)
+        .join(' ');
     }
     else{
       populate = [];

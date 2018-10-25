@@ -34,12 +34,13 @@ module.exports = {
     let populate;
     
     if(populateAssociation){
-     populate = Categoria.associations
+      populate = Noticia.associations
       .filter(ast => ast.autoPopulate !== false)
       .map(ast => ast.alias)
       .join(' ');
     }
     else{
+      console.log('\n\nVai cair no else .....\n\n');
       populate = [];
     }
     
