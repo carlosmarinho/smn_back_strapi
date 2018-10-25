@@ -18,14 +18,31 @@ module.exports = {
    */
 
   fetchAll: (params) => {
+    
+    let populateAssociation = true;
+    if(params.populateAssociation){
+      if(params.populateAssociation == 'false'){
+        populateAssociation = false;
+      }
+      delete params.populateAssociation;
+    }
+    
     // Convert `params` object to filters compatible with Mongo.
     const filters = strapi.utils.models.convertParams('categoria', params);
+    
     // Select field to populate.
-    const populate = Categoria.associations
+    let populate;
+    
+    if(populateAssociation){
+     populate = Categoria.associations
       .filter(ast => ast.autoPopulate !== false)
       .map(ast => ast.alias)
       .join(' ');
-
+    }
+    else{
+      populate = [];
+    }
+ 
     return Categoria
       .find()
       .where(filters.where)
