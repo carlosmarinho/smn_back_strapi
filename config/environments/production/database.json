@@ -8,14 +8,15 @@
           "host": "ds241723.mlab.com",
           "srv": false,
           "port": 41723,
-          "database": "heroku_sq14x1dm",
-          "username": "heroku_sq14x1dm",
-          "password": "9og13qbo1021p5498g2ukan61b"
+          "database": "smn_strapi_production",
+          "username": "smn_administrator_strapi",
+          "password": "c2rlos"
         },
         "options": {
-          "authenticationDatabase": "heroku_sq14x1dm",
+          "authenticationDatabase": "smn_strapi_production",
           "ssl": false
         }
       }
     }
   }
+  
