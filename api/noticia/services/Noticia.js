@@ -40,7 +40,6 @@ module.exports = {
       .join(' ');
     }
     else{
-      console.log('\n\nVai cair no else .....\n\n');
       populate = [];
     }
     
