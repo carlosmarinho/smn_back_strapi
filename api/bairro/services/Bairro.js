@@ -28,11 +28,12 @@ module.exports = {
 
     // Convert `params` object to filters compatible with Mongo.
     const filters = strapi.utils.models.convertParams('bairro', params);
-    let populate;
 
     // Select field to populate.
+    let populate;
+
     if(populateAssociation){
-        populate = Bairro.associations
+      populate = Bairro.associations
         .filter(ast => ast.autoPopulate !== false)
         .map(ast => ast.alias)
         .join(' ');
