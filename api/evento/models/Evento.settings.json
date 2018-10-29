@@ -45,8 +45,8 @@
     },
     "bairros": {
       "collection": "bairro",
-      "dominant": true,
-      "via": "eventos"
+      "via": "eventos",
+      "dominant": true
     },
     "user": {
       "model": "user",
@@ -54,8 +54,8 @@
     },
     "categorias": {
       "collection": "categoria",
-      "dominant": true,
-      "via": "eventos"
+      "via": "eventos",
+      "dominant": true
     },
     "tags": {
       "collection": "tag",
@@ -121,6 +121,10 @@
     },
     "cidade": {
       "model": "cidade"
+    },
+    "Endereço": {
+      "default": "",
+      "type": "string"
     }
   }
 }
