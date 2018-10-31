@@ -155,7 +155,7 @@
     },
     "avaliacao": {
       "default": "",
-      "type": "decimal"
+      "type": "string"
     }
   }
 }
