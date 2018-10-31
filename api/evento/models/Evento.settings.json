@@ -68,7 +68,7 @@
     },
     "couvert": {
       "default": "",
-      "type": "decimal"
+      "type": "string"
     },
     "recorrencia": {
       "default": "sem recorrencia",
