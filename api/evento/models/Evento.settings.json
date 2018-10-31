@@ -64,7 +64,7 @@
     },
     "preco": {
       "default": "",
-      "type": "decimal"
+      "type": "string"
     },
     "couvert": {
       "default": "",
