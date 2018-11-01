@@ -37,8 +37,8 @@
     },
     "categorias": {
       "collection": "categoria",
-      "dominant": true,
-      "via": "guias"
+      "via": "guias",
+      "dominant": true
     },
     "tags": {
       "collection": "tag",
@@ -47,8 +47,8 @@
     },
     "bairros": {
       "collection": "bairro",
-      "dominant": true,
-      "via": "guias"
+      "via": "guias",
+      "dominant": true
     },
     "user": {
       "model": "user",
