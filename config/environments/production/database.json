@@ -1,22 +1,21 @@
 {
-    "defaultConnection": "default",
-    "connections": {
-      "default": {
-        "connector": "strapi-hook-mongoose",
-        "settings": {
-          "client": "mongo",
-          "host": "ds241723.mlab.com",
-          "srv": false,
-          "port": 41723,
-          "database": "smn_strapi_production",
-          "username": "smn_administrator_strapi",
-          "password": "c2rlos"
-        },
-        "options": {
-          "authenticationDatabase": "smn_strapi_production",
-          "ssl": false
-        }
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds241723.mlab.com",
+        "srv": false,
+        "port": "41723",
+        "database": "smn_strapi_production",
+        "username": "smn_administrator_strapi",
+        "password": "smndb18-38"
+      },
+      "options": {
+        "authenticationDatabase": "smn_strapi_production",
+        "ssl": false
       }
     }
   }
-  
+}
