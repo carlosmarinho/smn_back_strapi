@@ -1,9 +1,9 @@
 #public/uploads
 
+config/environments/production/database.json
 ############################
 # OS X
 ############################
-config/environments/production/database.json
 .DS_Store
 .AppleDouble
 .LSOverride
