@@ -5,15 +5,15 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "ds241723.mlab.com",
+        "host": "mongo71-farm76.kinghost.net",
         "srv": false,
-        "port": "41723",
-        "database": "smn_strapi_production",
-        "username": "smn_administrator_strapi",
-        "password": "smndb18-38"
+        "port": 27017,
+        "database": "soumaisniteroi01",
+        "username": "soumaisniteroi01",
+        "password": "carlos"
       },
       "options": {
-        "authenticationDatabase": "smn_strapi_production",
+        "authenticationDatabase": "soumaisniteroi01",
         "ssl": false
       }
     }
