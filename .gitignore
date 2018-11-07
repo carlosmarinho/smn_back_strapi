@@ -3,7 +3,7 @@
 ############################
 # OS X
 ############################
-
+config/environments/production/database.json
 .DS_Store
 .AppleDouble
 .LSOverride
