@@ -74,6 +74,18 @@
     "imported_imagem_destacada": {
       "default": false,
       "type": "boolean"
+    },
+    "array_categorias": {
+      "default": "",
+      "type": "json"
+    },
+    "array_bairros": {
+      "default": "",
+      "type": "json"
+    },
+    "array_tags": {
+      "default": "",
+      "type": "json"
     }
   }
 }
