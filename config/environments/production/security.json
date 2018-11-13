@@ -6,7 +6,8 @@
   },
   "csp": {
     "enabled": true,
-    "policy": [{
+    "policy": [
+      {
         "img-src": "'self' http:"
       },
       "block-all-mixed-content"
@@ -14,7 +15,7 @@
   },
   "p3p": {
     "enabled": true,
-    "value": ""
+    "value": "soumaisniteroi.com.br"
   },
   "hsts": {
     "enabled": true,
@@ -23,7 +24,7 @@
   },
   "xframe": {
     "enabled": true,
-    "value": "SAMEORIGIN"
+    "value": "ALLOW-FROM soumaisniteroi.com.br"
   },
   "xss": {
     "enabled": true,
