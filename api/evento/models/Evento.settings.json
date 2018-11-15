@@ -125,6 +125,26 @@
     "Endereço": {
       "default": "",
       "type": "string"
+    },
+    "array_categorias": {
+      "default": "",
+      "type": "json"
+    },
+    "array_tags": {
+      "default": "",
+      "type": "json"
+    },
+    "array_bairros": {
+      "default": "",
+      "type": "json"
+    },
+    "object_cidade": {
+      "default": "",
+      "type": "json"
+    },
+    "object_user": {
+      "default": "",
+      "type": "json"
     }
   }
 }

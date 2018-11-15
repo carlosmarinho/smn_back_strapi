@@ -40,7 +40,7 @@
       "default": "",
       "type": "string"
     },
-    "eventos": {
+    "undefined": {
       "collection": "evento",
       "via": "cidade"
     }
