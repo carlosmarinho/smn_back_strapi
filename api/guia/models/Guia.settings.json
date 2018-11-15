@@ -169,7 +169,7 @@
       "default": "",
       "type": "json"
     },
-    "array_cidade": {
+    "array_cidades": {
       "default": "",
       "type": "json"
     }
