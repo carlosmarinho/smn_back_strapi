@@ -156,6 +156,18 @@
     "avaliacao": {
       "default": "",
       "type": "string"
+    },
+    "array_categorias": {
+      "default": "",
+      "type": "json"
+    },
+    "array_tags": {
+      "default": "",
+      "type": "json"
+    },
+    "array_bairros": {
+      "default": "",
+      "type": "json"
     }
   }
 }
