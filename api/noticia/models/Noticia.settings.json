@@ -86,6 +86,10 @@
     "array_tags": {
       "default": "",
       "type": "json"
+    },
+    "introducao": {
+      "default": "",
+      "type": "text"
     }
   }
 }
