@@ -90,6 +90,15 @@
     "introducao": {
       "default": "",
       "type": "text"
+    },
+    "status": {
+      "default": "active",
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "inactive",
+        "draft"
+      ]
     }
   }
 }
