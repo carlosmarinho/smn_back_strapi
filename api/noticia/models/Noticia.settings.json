@@ -103,6 +103,10 @@
     "s3_imagem_destacada": {
       "default": "",
       "type": "string"
+    },
+    "featured": {
+      "default": true,
+      "type": "boolean"
     }
   }
 }
