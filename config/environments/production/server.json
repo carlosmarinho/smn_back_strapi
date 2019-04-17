@@ -1,6 +1,6 @@
 {
-  "host": "localhost",
-  "port": "${process.env.PORT_SMN_BACK_STRAPI_SERVER || 1337}",
+  "host": "api.soumaisniteroi.com.br",
+  "port": "${process.env.PORT_SMN_BACK_STRAPI_SERVER || 21024}",
   "proxy": {
     "enabled": false
   },
