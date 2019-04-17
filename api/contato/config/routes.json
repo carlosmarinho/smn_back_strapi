@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contatoes",
+      "handler": "Contato.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contatoes/count",
+      "handler": "Contato.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contatoes/:_id",
+      "handler": "Contato.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/contatoes",
+      "handler": "Contato.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contatoes/:_id",
+      "handler": "Contato.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contatoes/:_id",
+      "handler": "Contato.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
