@@ -172,6 +172,18 @@
     "array_cidades": {
       "default": "",
       "type": "json"
+    },
+    "diasfuncionamento": {
+      "default": "",
+      "type": "json"
+    },
+    "funcionamento_hora_inicial": {
+      "default": "",
+      "type": "string"
+    },
+    "funcionamento_hora_final": {
+      "default": "",
+      "type": "string"
     }
   }
 }
