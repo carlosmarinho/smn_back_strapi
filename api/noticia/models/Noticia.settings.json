@@ -12,7 +12,8 @@
     "titulo": {
       "default": "",
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "descricao": {
       "default": "",
@@ -35,7 +36,8 @@
     },
     "slug": {
       "default": "",
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "tags": {
       "collection": "tag",
